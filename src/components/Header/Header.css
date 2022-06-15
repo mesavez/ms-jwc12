@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 65px;
+
+    border-radius: 0.5rem;
+    background-color: #fff;
+
+    z-index: 100;
+}
+
+.container-header {
+    max-width: 1920px;
+    margin: 0 auto;
+
+    user-select: none;
+}
+
+.header-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 65px;
+}
+
+.header-name a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #612378;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 1.5rem;
+}
+
+.menu li a {
+    font-family: "Prompt";
+    font-size: 18px;
+    color: #612378;
+    text-decoration: none;
+}

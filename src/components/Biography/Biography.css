@@ -1,0 +1,45 @@
+.biography {
+    height: 960px;
+    background-color: #612378;
+
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.container-biography {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.biography-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 960px;
+}
+
+.biography-text {
+    height: auto;
+
+
+    font-family: "Prompt";
+    color: white;
+}
+
+.biography-text h1 {
+    font-size: 38px;
+    text-align: left;
+}
+
+.biography-text p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.biography-img img {
+    margin-left: 10rem;
+    max-width: 70%;
+    height: auto;
+
+    -webkit-user-drag: none;
+}

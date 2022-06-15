@@ -1,0 +1,50 @@
+.about {
+    height: 960px;
+    background-color: #612378;
+
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.container-about {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.about-align {
+    display: flex;
+    align-items: center;
+    height: 960px;
+}
+
+.about-img {
+    margin: 5rem;
+    max-width: 500px;
+    height: auto;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+
+    -webkit-user-drag: none;
+}
+
+.about-text {
+    margin-left: 8rem;
+    width: 960px;
+    height: auto;
+
+    font-family: "Prompt";
+    color: white;
+}
+
+.about-text h1 {
+    font-size: 38px;
+    text-align: left;
+}
+
+.about-text p {
+    font-size: 18px;
+    text-align: left;
+}

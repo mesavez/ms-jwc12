@@ -1,0 +1,62 @@
+.container-banner {
+    max-width: 960px;
+    margin: 0 auto;
+
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.banner {
+    height: 700px;
+    background: url("https://images.herzindagi.info/image/2022/May/monthly-horoscope-main.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner-color {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.banner-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.banner-text {
+    font-family: "Prompt";
+    color: white;
+    text-align: center;
+}
+
+#banner-margin {
+    margin: 20px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+}
+
+.banner-text p {
+    font-size: 26px;
+}
+
+.banner-btn {
+    display: inline-block;
+
+    padding: 1rem 3rem;
+
+    color: #612378;
+    font-size: 22px;
+    text-decoration: none;
+
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 1.5px solid white;
+}
+
+.banner-btn:hover {
+    color: white;
+    background-color: transparent;
+    border: 1.5px solid white;
+}
