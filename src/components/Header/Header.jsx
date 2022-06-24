@@ -11,9 +11,9 @@ function Header() {
                         <a href="#">Dr.Muek</a>
                     </div>
                     <ul>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#Biography">ABOUT</a></li>
                         <li><a href="#">BLOG</a></li>
-                        <li><a href="#">BOOK</a></li>
+                        <li><a href="#Banner">BOOK</a></li>
                     </ul>
                 </div>
             </div>

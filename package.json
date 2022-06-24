@@ -10,6 +10,7 @@
     "dependencies": {
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
+        "react-router-dom": "^6.3.0",
         "react-scrollbars-custom": "^4.0.27"
     },
     "devDependencies": {
