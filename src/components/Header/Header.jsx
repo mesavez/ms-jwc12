@@ -8,18 +8,12 @@ function Header() {
             <div className="container-header">
                 <div className="header-align">
                     <div className="header-name">
-                        <a href="#"></a>
+                        <a href="#">Dr.Muek</a>
                     </div>
-                    <ul class="menu">
-                        <li className="menu-link">
-                            <a href="#">เกี่ยวกับ</a>
-                        </li>
-                        <li className="menu-link">
-                            <a href="#">บทความ</a>
-                        </li>
-                        <li className="menu-link">
-                            <a href="#">จองคิว</a>
-                        </li>
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">BOOK</a></li>
                     </ul>
                 </div>
             </div>

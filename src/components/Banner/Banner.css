@@ -59,4 +59,6 @@
     color: white;
     background-color: transparent;
     border: 1.5px solid white;
+
+    transition: 0.5s;
 }

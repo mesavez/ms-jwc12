@@ -1,6 +1,6 @@
 .reviewer {
     height: 960px;
-    background-color: #612378;
+    background-color: #fff;
 
     user-select: none;
     -webkit-user-drag: none;
@@ -31,7 +31,7 @@
 .reviewer-header p {
     font-size: 38px;
     text-align: center;
-    color: white;
+    color: #612378;
 }
 
 .customer-reviewer {
@@ -46,7 +46,7 @@
 
     margin: 0 4rem;
 
-    color: white;
+    color: #612378;
 }
 
 .customer-img {

@@ -14,7 +14,7 @@
 }
 
 .container-header {
-    max-width: 1920px;
+    max-width: 1280px;
     margin: 0 auto;
 
     user-select: none;
@@ -30,23 +30,42 @@
 
 .header-name a {
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 22px;
     color: #612378;
     text-decoration: none;
 }
 
-.menu {
-    display: flex;
-    list-style-type: none;
+.header-align ul li{
+    display: inline-block;
+
+    position: relative;
+
+    list-style: none;
+    margin: 0 20px;
 }
 
-.menu li {
-    padding: 1.5rem;
-}
-
-.menu li a {
+.header-align ul li a{
     font-family: "Prompt";
-    font-size: 18px;
+    font-size: 16px;
     color: #612378;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-align ul li::after{
+    content: '';
+
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    height: 3px;
+    width: 0;
+
+    background: #612378;
+    transition: 0.5s;
+}
+
+.header-align ul li:hover:after{
+    width: 100%;
 }
